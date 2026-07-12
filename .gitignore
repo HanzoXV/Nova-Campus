@@ -1,0 +1,53 @@
+# Gradle and build artifacts
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+**/build/
+/.gradle/
+captures/
+.externalNativeBuild
+.cxx
+
+# Local configuration file (contains absolute paths and local SDK locations)
+local.properties
+
+# Android Studio and IntelliJ workspace files
+.idea/
+*.iml
+*.iws
+*.ipr
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/gradle.xml
+/.idea/misc.xml
+/.idea/deploymentTargetSelector.xml
+
+# Google Services (if you add Firebase later)
+google-services.json
+
+# Keystore files (NEVER commit your release keystores/passwords!)
+*.jks
+*.keystore
+
+# Mac OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows specific files
+ehthumbs.db
+Thumbs.db
+
+# Kotlin-specific temporary files
+*.kt~
+
+# Log files
+*.log
